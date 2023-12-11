@@ -1,0 +1,18 @@
+performance_result: 'results/criteo_equal_weight/11-03-2023-01-41-01-criteo_N_100_auc_improvements.json'
+seed: 10010
+auction_type: "DGA"
+N: 100
+fig_save_name: "criteo-DGA-EM-1-change-perf.png"
+strategy: "EM"
+sensitivity: 0.35
+changing_performance: True
+eps: 1
+price_set:
+  lower: 0
+  upper: 0.35
+  separate: "uniform"
+  factor: 0.005
+untruthful_client:
+  - 90
+  - 91
+  - 45

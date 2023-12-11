@@ -1,0 +1,12 @@
+performance_result: 'results/criteo_equal_weight/11-03-2023-01-41-01-criteo_N_100_auc_improvements.json'
+auction_type: "FixedK"
+N: 100
+K: 20
+seed: 10010
+fig_save_name: "criteo-fix-k-20.png"
+untruthful_client:
+  - 90
+  - 91
+  - 6
+  - 12
+  - 76

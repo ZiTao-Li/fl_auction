@@ -1,0 +1,17 @@
+performance_result: 'results/criteo_equal_weight/11-03-2023-01-41-01-criteo_N_100_auc_improvements.json'
+auction_type: "DGA"
+N: 100
+seed: 10010
+fig_save_name: "criteo-DGA-RS.png"
+strategy: "random_sampling"
+sensitivity: 0.35
+eps: 5
+price_set:
+  lower: 0
+  upper: 0.35
+  separate: "uniform"
+  factor: 0.005
+untruthful_client:
+  - 90
+  - 91
+  - 89

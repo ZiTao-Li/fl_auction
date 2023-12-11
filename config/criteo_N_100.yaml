@@ -1,0 +1,10 @@
+dataset: criteo
+N: 100
+sampling_rate: 1.0
+seed: 10010
+attributes: './config/attribute_split/criteo_N_100_attrs.pkl'
+task_party_attr_num: 5
+eval_metric: 'auc'
+vfl_improvement_store:
+  dir: './results/criteo_equal_weight/'
+  file_name: 'criteo_N_100_auc_improvements.json'
